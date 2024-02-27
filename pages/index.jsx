@@ -11,9 +11,7 @@ import BannerSlider from '../components/BannerSlider';
 const Home = () => {
   return (
     <Layout>
-    <div>
-      
-     
+    <div>      
         
        
     <BannerSlider />
