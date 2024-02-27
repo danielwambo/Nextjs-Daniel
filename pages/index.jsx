@@ -3,7 +3,7 @@ import React from 'react';
 
 
 import ItemBlock from '../components/itemblock.jsx';
-import Layout from '../app/Layout';
+import Layout from '../app/layout';
 
 import CollectionBlock from '../components/collectionsblock.jsx';
 import BannerSlider from '../components/BannerSlider';
