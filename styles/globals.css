@@ -1,0 +1,28 @@
+.container {
+    max-width: 90vw; /* Set the maximum width to 90% of the viewport width */
+    margin: 0 auto; /* Center the container horizontally */
+  }
+  .carousel {
+    position: relative;
+    height: 30vh; /* Set the height to 30% of the viewport height */
+    overflow: hidden;
+  }
+  
+  .pagination {
+    position: absolute;
+    bottom: 10px; /* Adjust the distance from the bottom as needed */
+    left: 50%; /* Position the pagination dots in the center horizontally */
+    transform: translateX(-50%);
+    z-index: 1; /* Ensure the pagination dots appear above the images */
+  }
+  
+  .pagination-dot {
+    display: inline-block;
+    width: 10px;
+    height: 10px;
+    margin: 0 5px; /* Adjust the spacing between dots as needed */
+    background-color: white; /* Adjust the color of the dots */
+    border-radius: 50%;
+    cursor: pointer;
+  }
+  
